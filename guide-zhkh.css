@@ -208,8 +208,8 @@ a { color: var(--navy-muted); }
   border-radius: 16px;
   text-align: center;
   background: var(--gray-100);
-  break-inside: page /*avoid*/;
-  /*page-break-inside: page /*avoid*/;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 .cover .square-tile {
