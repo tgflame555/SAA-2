@@ -106,7 +106,8 @@ a { color: var(--navy-muted); }
   flex-direction: column;
   min-height: 297mm;
   padding: var(--page-pad-top) var(--page-pad-x) var(--page-pad-bottom);
-  page-break-after: always;
+  break-after: avoid;
+  page-break-after: avoid /*always*/;
 }
 
 .page:last-child { page-break-after: auto; }
