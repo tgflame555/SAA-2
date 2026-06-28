@@ -209,7 +209,7 @@ a { color: var(--navy-muted); }
   text-align: center;
   background: var(--gray-100);
   break-inside: page /*avoid*/;
-  page-break-inside: page /*avoid*/;
+  /*page-break-inside: page /*avoid*/;
 }
 
 .cover .square-tile {
