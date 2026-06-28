@@ -197,7 +197,7 @@ a { color: var(--navy-muted); }
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  /*flex: 0 0 100px /*5*/;
+  /*flex: 0 0 100px /*5;*/
   width: 100px /*5cm*/;
   height: 100px /*5cm*/;
   flex-shrink: 0;
