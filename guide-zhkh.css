@@ -198,7 +198,7 @@ a { color: var(--navy-muted); }
   justify-content: center;
   box-sizing: border-box;
   /*flex: 0 0 100px /*5;*/
-  width: 100px /*5cm*/;
+  width: 200px /*5cm*/;
   height: 100px /*5cm*/;
   flex-shrink: 0;
   padding: 8px;
