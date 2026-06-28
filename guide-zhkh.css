@@ -189,8 +189,7 @@ a { color: var(--navy-muted); }
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  width: 687.876px;
-}
+ }
 
 .square-tile {
   display: flex;
@@ -199,10 +198,10 @@ a { color: var(--navy-muted); }
   justify-content: center;
   box-sizing: border-box;
   /*flex: 0 0 100px /*5;*/
-  /*width: 200px /*5cm;*/
-  height: 100px /*5cm*/;
-  flex: 1 1 auto;
-  min-width: 120px; 
+  /*width: 200px;*/
+  height: 100px;
+  flex: 1 /*1 auto*/;
+  /*min-width: 120px*/; 
   /*flex-shrink: 0;*/
   padding: 8px;
   border: 1px solid var(--line);
