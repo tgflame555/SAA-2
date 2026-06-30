@@ -102,6 +102,12 @@ a { color: var(--navy-muted); }
 
 .page,
 .cover {
+  margin-bottom: 12px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 8%);
+}
+
+.page,
+.cover {
   position: relative;
   display: flex;
   flex-direction: column;
