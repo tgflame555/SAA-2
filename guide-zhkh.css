@@ -100,10 +100,17 @@ a { color: var(--navy-muted); }
   box-shadow: 0 16px 48px rgb(11 22 51 / 8%);
 }
 
-.page,
+/*.page,
 .cover {
   margin-bottom: 12px;
   box-shadow: 0 8px 24px rgb(0 0 0 / 8%);
+}*/
+
+.page,
+.cover {
+  margin-bottom: 16px;
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 28px rgb(0 0 0 / 10%);
 }
 
 .page,
