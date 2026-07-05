@@ -394,7 +394,7 @@ table {
   flex-direction: column;
   justify-content: center;
   min-height: 280px;
-  height: clam (280px, 34vh, 420px);
+  height: clamp(280px, 34vh, 420px);
   /*height: 100%;
   min-height: 168px;*/
   padding: 14px;
