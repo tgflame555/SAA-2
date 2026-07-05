@@ -816,6 +816,8 @@ th { color: var(--navy); background: var(--gray-100); font-size: 10.5px; }
     width: 210mm;
     height: 297mm;
     min-height: 297mm;
+    padding: var(--page-pad-top) var(--page-pad-x) var(--page-pad-bottom);
+    
     overflow: hidden;
     break-after: page;
     page-break-after: always;
@@ -830,6 +832,52 @@ th { color: var(--navy); background: var(--gray-100); font-size: 10.5px; }
   a {
     color: inherit;
     text-decoration: none;
+  }
+
+  .page__inner {
+    flex: none;
+    height: auto;
+    gap: 8px;
+    padding-bottom: 0;
+  }
+
+  .page__inner--spread {
+    justify-content: flex-start;
+  }
+
+  .page--intro .page__inner--spread {
+    gap: 8px;
+  }
+
+  .page--intro .square-row {
+    gap: 8px;
+  }
+
+  .page--intro .square-tile {
+    padding: 5px 4px;
+    height: 92px;
+  }
+
+  .intro-visual {
+    align-items: stretch;
+    min-height: 0;
+  }
+
+  .intro-visual__text,
+  .figure-img--intro {
+    height: auto;
+  }
+
+  .figure-img--intro {
+    padding: 10px 12px;
+  }
+
+  .figure-img--intro img {
+    max-height: 120px;
+  }
+
+  .page-footer {
+    bottom: 4mm;
   }
 }
 
