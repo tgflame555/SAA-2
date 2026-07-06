@@ -921,6 +921,14 @@ th { color: var(--navy); background: var(--gray-100); font-size: 10.5px; }
   .page-footer {
     bottom: 4mm;
   }
+
+  .page--cases .figure-img--xl {
+    min-height: 300px;
+  }
+
+  .page--cases .figure-img--xl img {
+    max-height: 260px;
+  }
 }
 
 @page {
