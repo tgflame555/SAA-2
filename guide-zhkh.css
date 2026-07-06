@@ -923,11 +923,14 @@ th { color: var(--navy); background: var(--gray-100); font-size: 10.5px; }
   }
 
   .page--cases .figure-img--xl {
-    min-height: 300px;
+    min-height: 260px;
+    padding: 12px 14px;
   }
 
   .page--cases .figure-img--xl img {
-    max-height: 260px;
+    max-height: 220px;
+    height: auto;
+    width: 100%;
   }
 }
 
