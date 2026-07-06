@@ -932,6 +932,18 @@ th { color: var(--navy); background: var(--gray-100); font-size: 10.5px; }
     height: auto;
     width: 100%;
   }
+
+  .page--intro .figure-img--intro {
+    min-height: 280px;
+    padding: 12px 14px;
+  }
+
+  .page--intro .figure-img--intro img {
+    width: 100%;
+    height: auto;
+    max-height: 240px;
+    object-fit: contain;
+  }
 }
 
 @page {
