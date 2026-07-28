@@ -250,12 +250,14 @@
           <div>
             <p class="eyebrow">Заявка на консультацию</p>
             <h2>Кратко опишите ситуацию – я предложу подходящий формат консультации</h2>
-            <p>
+            <!--<p>
               Форма не отправляет данные на сервер в этой статической версии. Ее можно подключить к CRM,
               Telegram-боту, почте или платежному сервису при публикации сайта.
-            </p>
+            </p>-->
           </div>
-          <form class="request-form" action="mailto:hello@smirnov-law.ru" method="post" enctype="text/plain">
+          <form class="request-form" action="send-to-email.php" method="post">
+            <input type="hidden" name="form_type" value="request" />
+          <!--<form class="request-form" action="mailto:hello@smirnov-law.ru" method="post" enctype="text/plain">-->
             <label>
               Ваше имя
               <input type="text" name="name" placeholder="Например, Мария" required />
@@ -438,7 +440,9 @@
         </div>
 
         <div class="modal-order" id="modal-order">
-          <form class="request-form request-form--modal" action="mailto:hello@smirnov-law.ru" method="post" enctype="text/plain">
+          <form class="request-form request-form--modal" action="send-to-email.php" method="post">
+            <input type="hidden" name="form_type" value="order" />
+          <!--<form class="request-form request-form--modal" action="mailto:hello@smirnov-law.ru" method="post" enctype="text/plain">-->
             <h3>Оформить заказ на консультацию</h3>
             <label>
               Имя
